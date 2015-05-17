@@ -1,5 +1,5 @@
 # pdlm
-Système des contradictions économiques
+*Système des contradictions économiques*
 
 En l'honneur de Proudhon (1809-1865), mort il y a 150 ans, j'entreprends ici à ciel ouvert la réédition d'un de ces ouvrages les plus riches d'enseignement, la Philosophie de la misère ou le système des contradictions économiques, publié initialement en 1846.
 
