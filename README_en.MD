@@ -1,4 +1,4 @@
-Celebrating Proudhon's 150th of death, I decided to republish one of his richest books, Philosophie de la misère ou système des contradictions.
+Celebrating Proudhon's 150th anniversary of death, I decided to republish one of his richest books, Philosophie de la misère ou système des contradictions.
 
 In order to grant an easier access to this work, I decided to use contemporary typeface -- l'Infini by Sandrine Nugue and Fira Sans by Erik Spiekermann and Ralph du Carrois -- and a greater and more common format: A4.
 
