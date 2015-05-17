@@ -1,0 +1,498 @@
+@font-face {
+    font-family: sourcesans;
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sourcesans;
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/FiraSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: sourcesans;
+    font-weight: 500;
+    font-style: normal;
+    src: url('fonts/FiraSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sourcesans;
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/FiraSans-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: sourcesans;
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/FiraSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: utopia;
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/infini_romain.otf') format('opentype');
+}
+
+@font-face {
+    font-family: utopia;
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/infini_bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: utopia;
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/infini_ital.otf') format('opentype');
+}
+
+@font-face {
+	font-family: worksans;
+	font-weight: bold;
+	src: url('fonts/WorkSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: worksans;
+	font-weight: 300;
+	src: url('fonts/WorkSans-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: worksans;
+	font-weight: 500;
+	src: url('fonts/WorkSans-Medium.otf') format('opentype');
+}
+
+
+@font-face {
+	font-family: worksans;
+	font-weight: bold;
+	font-style: italic;
+	src: url('fonts/WorkSans-Bold.otf') format('opentype');
+}
+
+html {
+    height: 100%;
+}
+
+body, pre {
+    height: 100%;
+    font-size: 12pt;
+    width: 5in;
+    margin: auto;
+    padding: 0;
+    font-family: utopia, sourcesanspro ;
+    -moz-font-feature-settings: 'dlig';
+    -moz-font-feature-settings: 'onum';
+    -webkit-font-feature-settings: 'dlig';
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga';
+
+}
+
+p {
+  font-size: 12pt;
+  line-height: 14pt;
+  text-align:justify;
+}
+
+ul, li {
+list-style-type:none;
+  font-size: 12pt;
+  line-height: 14pt;
+}
+
+.nocount, li {
+  display: block;
+    text-align:justify;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+quote {
+  font-size: 10pt;
+  line-height: 11pt;
+  margin-left: 1cm;
+  display: block;
+}
+
+quote.first {
+  font-size: 10pt;
+  margin-left: 1cm;
+-webkit-margin-before: 1em;
+  display: block;
+}
+
+quote.aside {
+  font-size: 8pt;
+  line-height:8pt;
+  margin-left: 1cm;
+  padding-top: 9pt;
+  padding-bottom: 9pt;
+  display: block;
+  font-family: sourcesans ;
+  font-weight: normal;
+}
+
+em, em.note {
+font-style:italic;
+}
+
+aside.note {
+  padding-top: 9pt;
+}
+
+mark {
+  font-size: 100%;
+  font-family: sourcesans;
+  font-weight: 500;
+  -webkit-font-feature-settings: 'c2sc';
+  -moz-font-feature-settings: 'c2sc';
+  -moz-font-feature-settings:"c2sc=1";
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+mark.concept {
+  font-size: 100%;
+  font-family: utopia ;
+  background-color: transparent; 
+  text-transform: lowercase;
+  -moz-font-feature-settings: 'smcp';
+}
+
+mark.concept2 {
+  font-size: 100%;
+  font-family: sourcesans;
+  font-weight:normal;
+  background-color: transparent; 
+  text-transform: lowercase;
+  -webkit-font-feature-settings: 'smcp';
+  -moz-font-feature-settings: 'smcp';
+}
+
+em.smcp {
+  font-size: 100%;
+  font-family: utopia ;
+  font-style: normal;
+  text-transform: lowercase;
+  -moz-font-feature-settings: 'smcp';
+}
+
+em.smcp2 {
+  font-size: 100%;
+  font-family: utopia ;
+  font-style: normal;
+  -moz-font-feature-settings: 'smcp';
+}
+
+em.smcp3 {
+  font-size: 100%;
+  font-family: worksans ;
+  -webkit-font-feature-settings: 'smcp';
+  -moz-font-feature-settings: 'smcp';
+  text-transform: lowercase;
+}
+
+em.smcp4 {
+  font-size: 100%;
+  font-family: sourcesans;
+  font-style: normal;
+  font-weight: normal;
+   -webkit-font-feature-settings: 'smcp';
+  -moz-font-feature-settings: 'smcp';
+}
+
+h1 {
+font-family: sourcesans, 'Forza SSm caps 8r', 'Forza SSm caps A', 'Forza SSm caps B';
+font-weight: bold;
+text-align: center;
+font-size: 36pt;
+line-height: 36pt;
+}
+
+h2 {
+font-family: sourcesans, 'Forza SSm caps 8r', 'Forza SSm caps A', 'Forza SSm caps B';
+font-weight: bold;
+text-align: center;
+font-size: 24pt;
+line-height: 24pt;
+}
+
+h3 {
+font-family: sourcesans, 'Forza SSm caps 8r', 'Forza SSm caps A', 'Forza SSm caps B';
+font-weight: 500;
+text-align: center;
+font-size: 18pt;
+text-transform: uppercase;
+-webkit-font-feature-settings: 'c2sc';
+-moz-font-feature-settings: 'c2sc';
+}
+
+h4 {
+font-family: sourcesans, 'Forza SSm caps 8r', 'Forza SSm caps A', 'Forza SSm caps B';
+font-weight: normal;
+text-align: center;
+font-size: 14pt;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+-webkit-font-feature-settings: 'c2sc';
+-moz-font-feature-settings: 'c2sc';
+}
+
+#page-table, #first, #second, #third, #fourth {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+#page-td {
+    height: 100%;
+    padding: 0;
+    vertical-align: middle;
+    text-align:center;
+}
+
+#page-dtc {
+    height: 100%;
+    padding: 0;
+    vertical-align: top;
+}
+
+div#global {
+    width: 5in;
+    margin: auto;
+    padding: 0;
+}
+
+div#meta {
+    width: 5in;
+}
+
+body {
+ /* this is the element that will reset the numbers */
+ counter-reset: para pag anote note; /* identifier & starting number */
+}
+
+sup {
+ font-family: utopia ;
+-webkit-font-feature-settings: 'sups';
+-moz-font-feature-settings: 'sups';
+vertical-align: text-top;
+}
+
+sup.text {
+ font-family: utopia ;
+-webkit-font-feature-settings: 'sups';
+-moz-font-feature-settings: 'sups';
+vertical-align: text-top;
+}
+
+p1:before {/* the element to receive the numbering */
+ counter-increment: para 1; /* identifier and increment value */
+ content: counter(para, decimal-leading-zero) ""; /* identifier, number type, and what follows the numbering */
+}
+
+p1:before {
+ font-family: worksans, sourcesanspro ;
+ font-weight: 300;
+-webkit-font-feature-settings: 'sups';
+-moz-font-feature-settings: 'sups';
+vertical-align:text-top;
+}
+
+p.nocount:before {/* the element to receive the numbering */
+ counter-increment: parag 1; /* identifier and increment value */
+ content: counter(parag, decimal-leading-zero) ""; /* identifier, number type, and what follows the numbering */
+}
+
+aside.note:before {/* the element to receive the numbering */
+ counter-increment: note 1; /* identifier and increment value */
+ content: counter(note, decimal) ""; /* identifier, number type, and what follows the numbering */
+}
+
+aside.note:before {
+ font-family: sourcesans ;
+ font-weight: bold;
+-webkit-font-feature-settings: 'sups';
+-moz-font-feature-settings: 'sups';
+vertical-align: 0;
+position: relative;
+}
+
+.appel:before {/* the element to receive the numbering */
+ counter-increment: anote 1; /* identifier and increment value */
+ content: counter(anote, decimal) ""; /* identifier, number type, and what follows the numbering */
+}
+
+.appel:before {
+ font-family: sourcesans ;
+ font-weight: bold;
+-webkit-font-feature-settings: 'sups';
+-moz-font-feature-settings: 'sups';
+vertical-align: 0;
+position: relative;
+}
+
+pre:before {/* the element to receive the numbering */
+ counter-increment: para 1; /* identifier and increment value */
+ content: counter(para, decimal-leading-zero) ""; /* identifier, number type, and what follows the numbering */
+}
+
+pre:before {
+  vertical-align:top; 
+  font-size:75%;
+  font-weight:bold;
+}
+
+dd.chap01:before {/* the element to receive the numbering */
+ content: "système des contradictions économiques · proudhon ·"; /* identifier, number type, and what follows the numbering */
+}
+
+
+dd.chap01:after {/* the element to receive the numbering */
+ counter-increment: pag 1; /* identifier and increment value */
+ content: " chapitre 1 · " counter(pag, decimal-leading-zero); /* identifier, number type, and what follows the numbering */
+}
+
+dd.chap02:before {/* the element to receive the numbering */
+ content: "système des contradictions économiques · proudhon ·"; /* identifier, number type, and what follows the numbering */
+}
+
+
+dd.chap02:after {/* the element to receive the numbering */
+ counter-increment: pag 1; /* identifier and increment value */
+ content: " chapitre 2 · " counter(pag, decimal-leading-zero); /* identifier, number type, and what follows the numbering */
+}
+
+dd.prologue:after {/* the element to receive the numbering */
+ counter-increment: pag 1; /* identifier and increment value */
+ content: " prologue · " counter(pag, decimal-leading-zero); /* identifier, number type, and what follows the numbering */
+}
+
+dd.blank:before {/* the element to receive the numbering */
+ counter-increment: pagm 1; /* identifier and increment value */
+ content: counter(pagm, decimal-leading-zero) " | système des contradictions économiques"; /* identifier, number type, and what follows the numbering */
+}
+
+dd.prologue:before {/* the element to receive the numbering */
+ content: "système des contradictions économiques · proudhon ·"; /* identifier, number type, and what follows the numbering */
+}
+
+dl.prologue:after {/* the element to receive the numbering */
+ content: "système des contradictions économiques"; /* identifier, number type, and what follows the numbering */
+}
+
+dd:before {
+  vertical-align:top; 
+  font-size: 10pt;
+  font-weight: normal;
+  font-family: sourcesans;
+  text-transform: uppercase;
+   -webkit-font-feature-settings: 'c2sc';
+}
+
+dd.blank:before {
+visibility: hidden;
+}
+
+dd.blank {
+visibility: hidden;
+}
+
+p.nocount:before {
+visibility: hidden;
+}
+
+dd:after {
+  vertical-align:top; 
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: sourcesans;
+  text-transform: uppercase;
+   -webkit-font-feature-settings: 'c2sc';
+}
+
+dl:after {
+  vertical-align:top; 
+  font-size: 10pt;
+  font-weight: normal;
+  font-family: worksans ;
+  text-transform: uppercase;
+   -webkit-font-feature-settings: 'c2sc';
+}
+
+dd {
+-webkit-margin-start: 0px;
+-moz-margin-start: 0px;
+}
+
+dl {
+position:absolute;
+bottom:0;
+height:50px;
+text-align:center;
+width: 5in;
+margin: auto;
+visibility: hidden;    
+}
+
+dd.left {
+text-align: center;
+}
+
+dd.right {
+text-align: center;
+}
+
+aside {
+  font-size: 10pt;
+text-align: justify;
+  line-height: 12pt;
+   font-family: sourcesans;
+   font-weight:normal;
+  -webkit-font-feature-settings: 'onum';
+  -moz-font-feature-settings: 'onum';  
+}
+
+.break {page-break-before: always; }
+
+footer {
+position:absolute;
+bottom:0;
+height:50px;
+text-align:center;
+width: 100%;
+}
+
+header {
+position:fixed;
+top:25px;
+height:50px;
+ font-family: 'Gotham', sourcesanspro;
+text-align:center;
+font-size: 10pt;
+width: 100%;
+}
+
+@page { size:21cm 29.7cm; margin: 2cm }
+
+@media print
+{    
+    dl
+    {
+        position: fixed;
+        visibility: visible;
+    }
+}
