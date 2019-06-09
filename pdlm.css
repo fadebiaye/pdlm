@@ -104,6 +104,10 @@ p {
   font-size: 12pt;
   line-height: 14pt;
   text-align:justify;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-break: normal;
 }
 
 ul, li {
@@ -375,6 +379,16 @@ dd.chap02:after {/* the element to receive the numbering */
  counter-increment: pag 1; /* identifier and increment value */
  content: " chapitre 2 · " counter(pag, decimal-leading-zero); /* identifier, number type, and what follows the numbering */
 }
+
+dd.chap03:before {/* the element to receive the numbering */
+  content: "système des contradictions économiques · proudhon ·"; /* identifier, number type, and what follows the numbering */
+ }
+ 
+ 
+ dd.chap03:after {/* the element to receive the numbering */
+  counter-increment: pag 1; /* identifier and increment value */
+  content: " chapitre 3 · " counter(pag, decimal-leading-zero); /* identifier, number type, and what follows the numbering */
+ }
 
 dd.prologue:after {/* the element to receive the numbering */
  counter-increment: pag 1; /* identifier and increment value */
